@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="1.0" init="Application">
+    <ConfigItem Name="Loader::Agent::CommonCSS###000-TUILMCSS" Required="1" Valid="1">
+        <Description Translatable="1">List of My CSS Changes in Agent Frontend files to always be loaded for the agent interface.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Core::Web</SubGroup>
+        <Setting>
+            <Array>
+                <Item>/TUILM/MyCSSChangesAgent.css</Item>
+            </Array>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="Loader::Customer::CommonCSS###000-TUILMCSS" Required="1" Valid="1">
+        <Description Translatable="1">List of My CSS Changes in Customer Frontend files to to always be loaded for the agent interface.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Core::Web</SubGroup>
+        <Setting>
+            <Array>
+                <Item>/TUILM/MyCSSChangesCustomer.css</Item>
+            </Array>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="Loader::Agent::CommonJS###999-TUILMJavaScript" Required="1" Valid="1">
+        <Description Translatable="1">List of JS files to always be loaded for the agent interface.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Core::Web</SubGroup>
+        <Setting>
+            <Array>
+                <Item>/TUILM/AgentNewIncident.js</Item>
+            </Array>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="Loader::Customer::CommonJS###999-TUILMJavaScript" Required="1" Valid="1">
+        <Description Translatable="1">List of JS files to always be loaded for the agent interface.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Core::Web</SubGroup>
+        <Setting>
+            <Array>
+                <Item>/TUILM/CustomerNewIncident.js</Item>
+            </Array>
+        </Setting>
+    </ConfigItem>
+</otrs_config>

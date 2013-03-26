@@ -1,0 +1,301 @@
+#Header {
+    padding: 5px 35px 5px;
+    background: #A7AAAA url(../img/GradientSmall.png) repeat-x 0 0;
+    border-bottom: 1px solid #999;
+    text-shadow: 0 1px 0 #EEE;
+}
+
+#Header #Logo {
+    height: 58px;
+
+}
+
+#Navigation .Selected a {
+    margin-right: 0px;
+    padding: 8px 12px 8px 18px;
+    color: #FFF;
+    background: url(../img/ActiveButton.png) no-repeat scroll 5px 10px #006666;
+    text-shadow: 0 0px 0 #000;
+}
+
+#Navigation li:active a {
+    margin-right: 0px;
+    padding: 8px 12px 8px 18px;
+    color: #FFF;
+    background: url(../img/ActiveButton.png) no-repeat scroll 8px 10px #006666;
+    text-shadow: 0 0px 0 #000;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background: url(../img/bg.png) repeat scroll 0 0 #FFFFFF;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.CompanyName {
+    width: 321px;
+    height: 79px;
+    background: url(../img/unirz.png) no-repeat;
+}    
+
+#Navigation a {
+    background: url("../img/controlrow_isolator.png") no-repeat scroll right 4px transparent;
+    color: #111;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px 11px;
+    display: block;
+    outline: none;
+    text-shadow: 0 1px 0 #EAEEEE;
+}
+
+#Navigation {
+    height: 27px;
+    background: #FFFFFF;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #979999;
+    border-top: 0 solid #EEEEEE;
+    clear: both;
+}
+
+#Navigation a:hover {
+    background: url("../img/ActiveButton.png") no-repeat scroll 5px 10px #006666;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #000;
+    font-size: 11px;
+}
+
+#Navigation li:active {
+    background: url("../img/ActiveButton.png") no-repeat scroll 5px 10px #006666;
+    margin-top: 0px;
+}
+
+#Navigation li:active a {
+    background: none;                         
+}
+
+#Navigation .Selected a:active {
+    padding: 8px 12px 8px 18px;
+}
+
+#Navigation .Selected:active {
+     margin-top: 0;
+     border-bottom: 0 solid #666666;
+}
+
+.Overview tbody tr:hover .Title h2 {
+    color: #006666;
+    font-weight: bold;
+}
+.Overview tbody tr:hover td {
+    background: #E5F2F3;
+    color: #006666;
+    font-weight: normal;
+}
+.Overview tbody tr:hover {
+    border-color: #006666;
+    font-weight: normal;
+}
+
+.Overview tbody tr:hover td, .Overview tbody tr:hover a {
+    color: #006666;
+    font-weight: normal;
+}
+.Overview tbody tr:hover .Title div {
+    color: #006666;
+    font-weight: normal;
+}
+.Overview tbody tr:hover td, .Overview tbody tr:hover a {
+    color: #006666;
+    text-shadow: 0 0px 0 #F4B259;
+}
+.Overview tbody tr:hover .Title div {
+    color: #006666;
+    text-shadow: 0 0px 0 #F4B259;
+}
+.Overview thead {
+    display: table-header-group;
+}
+o
+.JavaScriptAvailable .Login input[type="text"], .JavaScriptAvailable .Login input[type="password"] {
+    z-index: 0;
+}
+.Login input[type="text"], .Login input[type="password"] {
+    background-color: white;
+}
+.Widget {
+    background: url("../img/widget_bg_100.png") repeat-x scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    margin-bottom: 10px;
+    padding: 10px 10px 1px 10px;
+}
+.Widget .Header{
+	padding: 2px 5px 3px;
+}
+	
+h2 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.Widget {
+    border-radius: 2px 2px 2px 2px;
+    margin: 20px;
+    padding: 10px 10px 1px;
+}
+
+.Overview thead th {
+    border: 1px solid #999999;
+	padding: 0
+}
+	
+.Overview tbody tr {
+    border-bottom: 0 none;
+}
+
+table.Overview {
+    margin-bottom: 10px;
+	border: 1px solid #999999
+}
+.Overview thead a {
+    height: 15px;
+	}
+.DynamicFieldmoodle{
+	position: absolute; top:180px; left:310px; bottom:340px; right:0px;
+}
+	
+.Overview thead .SortAscending a, .Overview thead .SortDescending a {
+	color: white;
+    padding: 6px 10px 3px;
+}
+
+#Footer a:hover {
+    color: #006666;
+}
+
+
+
+.LayoutFixedSidebar {
+    display: block;
+}
+.LayoutFixedSidebar.SidebarLast > .SidebarColumn {
+    float: right;
+    margin-left: 16px;
+    margin-right: 0;
+    width: 270px;
+}
+.LayoutFixedSidebar > .SidebarColumn {
+    overflow-x: hidden;
+}
+.WidgetSimpleZoom {
+    background: url("../img/widget_bg_100.png") repeat-x scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    margin-bottom: 10px;
+}
+.WidgetSimpleZoom > .Header, .WidgetSimpleZoom.Collapsed.AnimationRunning > .Header {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #FFFFFF #FFFFFF #CCCCCC;
+    border-image: none;
+    border-style: solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-width: 1px;
+    padding: 2px 5px 3px;
+    position: relative;
+}
+.WidgetSimpleZoom > .Content {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-color: #FFFFFF #FFFFFF -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    overflow: auto;
+    padding: 8px 8px 10px;
+	background: -moz-linear-gradient(center top , #FFFFFF, #FCFCFC) repeat scroll 0 0 transparent
+}
+.LayoutFixedSidebar > .ContentColumn {
+    overflow: hidden;
+	border: 1px solid #CCCCCC;
+}
+.ClearLeft, .RTL .ClearRight {
+    clear: left !important;
+    float: none !important;
+}
+.TicketZoom {
+    padding: 4px 16px 8px 8px;
+    position: relative;
+}
+.MessageBox, .ActionRow {
+	height: 24px;
+    margin: 7px 5px 10px 7px;
+    position: relative;
+}
+.WidgetSimpleZoom > .Header h2 {
+    margin: 0;
+    padding: 4px 3px;
+	color: #474747;
+    font-size: 14px;
+	font-weight: normal;
+}
+p {
+    color: black;
+}
+.Tabs a {
+    color: #006666;
+	text-decoration: underline;
+}
+.Tabs .Selected {
+    color: #006666;
+    text-decoration: none;
+}
+
+.WidgetSimpleZoom fieldsetZoom {
+    margin-bottom: 15px;
+	background-image: none;
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+fieldsetZoom.TableLike.FixedLabelSmall > label, fieldsetZoom.TableLike.FixedLabelSmall > .Row > label {
+    width: 100px;
+}
+fieldsetZoom.TableLike > label, fieldsetZoom.TableLike > .Row > label {
+    color: #929292;
+    display: block;
+    float: left;
+    line-height: 1.3em;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: right;
+    text-shadow: 0 1px 0 #FAFAFA;
+}
+fieldsetZoom.TableLike.FixedLabelSmall > .Field, fieldsetZoom.TableLike.FixedLabelSmall > .Row > .Field, fieldsetZoom.TableLike.FixedLabelSmall > .Value, fieldsetZoom.TableLike.FixedLabelSmall > .Row > .Value {
+    margin-left: 100px;
+    margin-right: 7px;
+    word-wrap: break-word;
+}
+fieldsetZoom.TableLike > .Value, fieldsetZoom.TableLike > .Row > .Value {
+    line-height: 1.3em;
+    padding: 3px 0 3px 8px;    
+	margin-top: 0;
+}
+.JavaScriptAvailable .Login input[type="text"], .JavaScriptAvailable .Login input[type="password"] {
+    z-index: 0;
+}

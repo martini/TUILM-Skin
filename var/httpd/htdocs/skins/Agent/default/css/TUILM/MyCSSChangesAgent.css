@@ -1,0 +1,352 @@
+
+/**
+ * @subsection  UserInfo
+ */
+#UserInfo {
+    top: 85px;
+    right: 45px;
+    padding: 4px 25px 0 0;
+    color: #000000;
+    font-size: 11px;
+    position: absolute;
+    cursor: default;
+}
+
+.RTL #UserInfo {
+    right: auto;
+    left: 17px;
+    color: #006666;
+    padding: 4px 0 0 25px;
+}
+
+#UserInfo a.LogoutButton {
+    top: 0px;
+    right: 0;
+    width: 20px;
+    height: 18px;
+    text-indent: -9999px;
+    background: url(../img/logout_sprite.png) no-repeat left top;
+    position: absolute;
+}
+
+.RTL #UserInfo a.LogoutButton {
+    right: auto;
+    left: 0;
+}
+
+#UserInfo a:hover.LogoutButton {
+    background-position: left bottom;
+}
+
+.RTL #UserInfo a:hover.LogoutButton {
+    background-position: right bottom;
+}
+
+#Navigation > li > a {
+	height: 22px;
+	padding-bottom: 0
+}
+
+#Header {
+    padding: 5px 35px 5px;
+    border-bottom: 1px solid #999;
+    text-shadow: 0 1px 0 #EEE;
+}
+
+#Header #Logo {
+    height: 58px;
+}
+
+.Tabs a {
+    color: #006666;
+	text-decoration: underline;
+}
+.Tabs .Selected {
+    color: #006666;
+    text-decoration: none;
+}
+body{
+	background: url("../img/bg.png") repeat scroll 0 0 #FFFFFF;
+}
+.WidgetSimple > .Content{
+	background: -moz-linear-gradient(center top , #FFFFFF, #FCFCFC) repeat scroll 0 0 transparent
+}
+.ContentColumn form fieldset.TableLike > .Field, fieldset.TableLike > .Row > .Field {
+    margin-left: 120px;
+}
+.ContentColumn form fieldset.TableLike > label, fieldset.TableLike > .Row > label {
+    background: -moz-linear-gradient(center top , #F9F9F9, #ECEEEE) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #FFFFFF;
+    width: 110px;
+    font-size: 11px;
+    padding: 4px 9px 3px 0;
+	margin-top: 4px; 
+	line-height: 1em;
+}
+.ContentColumn form fieldset{
+	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
+    border: 1px solid #EAEEEE;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 0 13px;
+    padding-bottom: 5px;
+	margin-left: 13px;
+}
+.ContentColumn form fieldset.TableLike div.RichTextField {
+	margin-top: 10px;
+}
+.WidgetBox > .Content{
+	background: -moz-linear-gradient(center top , #FFFFFF, #FCFCFC) repeat scroll 0 0 transparent
+}
+#Navigation li{
+	background: none;
+	padding-left: 0;
+	margin-left: -2px;
+}
+#Navigation li.Selected a {
+    background: url("../img/ActiveButton.png") no-repeat scroll 5px 10px #006666;
+    color: #FFFFFF;
+    margin-right: 0;
+    padding: 8px 12px 8px 18px;
+    text-shadow: 0 0 0 #000000;
+	text-decoration: none;
+}
+
+#Navigation li a {
+	background: url("../img/controlrow_isolator.png") no-repeat scroll right 4px transparent;
+    color: #111111;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    outline: medium none;
+    padding: 8px 11px;
+	height: 11px;
+    text-transform: none;
+
+}
+#Navigation .Search {
+    width: inherit;
+}
+
+#Navigation a span.SearchIcon {
+    background: none;
+    display: block;
+    height: inherit;
+    left: 0;
+    position: relative;
+    text-indent: 0;
+    top: 0;
+    width: inherit;
+}
+#Navigation li:hover a {
+    background-color: #006666;
+}
+#ToolBar{
+	top: 30px;
+}
+#Navigation .Individual {
+    float: right;
+}
+a {
+    color: #006666;
+}
+a:hover {
+    color: #444444;
+}
+span.Pagination a {
+    color: #006666;
+	text-decoration: underline;
+}
+.Tab.Actions li:first-child a{
+    color: #006666;
+	text-decoration: underline;
+}
+.Tab.Actions li:first-child a:hover {
+    color: #444444;
+}
+.Tab.Actions li.Selected a {
+    color: #006666;
+}
+.Tab.Actions li.Selected a:hover {
+    color: #444444;
+}
+span.Pagination a.Selected {
+    text-decoration: none;
+}
+span.Pagination a:hover {
+    color: #444444;
+}
+.Tab.Actions li.Selected a {
+    text-decoration: none;
+}
+.Tab.Actions li a {
+    color: #006666;
+	text-decoration: underline;
+}
+
+#Footer a:hover {
+    color: #006666;
+}
+.DataTable tbody tr:hover td, .TableSmall tbody tr:hover td {
+    background: none repeat scroll 0 0 #E5F2F3;
+	box-shadow: none;
+}
+#ToolBar a span.Counter {
+    color: #000000;
+}
+ul.Tablelike li:hover {
+    background: none repeat scroll 0 0 #E5F2F3;
+}
+#Navigation > .Active .Shadow > ul {
+    background: none repeat scroll 0 0 #006666;
+}
+#Navigation > .Active .Shadow > ul > li:hover {
+    background: none repeat scroll 0 0 #E5F2F3;
+}
+#Navigation > .Active .Shadow > ul > li:hover > a {
+    color: #444444;
+}
+#Navigation {
+	background: none repeat scroll 0 0 #FFFFFF;
+    height: 27px;
+    width: 100%;
+    border-bottom: 1px solid #979999;
+    border-top: none;
+	top: 0;
+	left: 0;
+	position: relative;
+    clear: both;
+}
+fieldset.TableLike.FixedLabel > label, fieldset.TableLike.FixedLabel > .Row > label {
+    width: 170px;
+}
+.LayoutPopup fieldset.TableLike > label, fieldset.TableLike > .Row > label {
+    background: -moz-linear-gradient(center top , #F9F9F9, #ECEEEE) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #FFFFFF;
+    font-size: 11px;
+    line-height: 1em;
+    margin-top: 4px;
+    padding: 4px 9px 3px 0;
+    width: 110px;
+	color: #929292;
+    display: block;
+    float: left;
+    text-align: right;
+    text-shadow: 0 1px 0 #FAFAFA;
+}
+form fieldset {
+	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
+}
+.LayoutPopup fieldset.TableLike.FixedLabel > .Field{
+	margin-left: 110px;
+}
+.MainBox .LayoutFixedSidebar > .ContentColumn {
+    border: 1px solid #CCCCCC;
+}
+.MainBox .LayoutFixedSidebar .ContentColumn > .ControlRow {
+    background: url("../img/GradientSmall.png") repeat-x scroll 0 0 #A7AAAA;
+    border: none;
+    border-style: none;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    border-width: none;
+    min-height: none;
+}
+.MainBox .LayoutFixedSidebar .ContentColumn > .ActionRow {
+    background: none repeat scroll 0 0 #FFFFFF;
+	border-bottom: 1px solid #D6D6D6;
+}
+#ArticleTree {
+    margin-top: 0;
+}
+#ArticleTable .ControlRow {
+    background: url("../img/GradientSmall.png") repeat-x scroll 0 0 #A7AAAA;
+    border: none;
+    border-style: none;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    border-width: none;
+    min-height: none;
+}
+.SpacingTop {
+    margin-top: 0;
+}
+.WidgetBox .SpacingTop {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.LightRow.Header {
+    background: url("../img/GradientSmall.png") repeat-x scroll 0 0 #A7AAAA; 
+	border-bottom: 1px solid #D6D6D6;
+    border-top: 1px solid #D6D6D6;
+}
+.TableSmall thead th {
+    background: none repeat scroll 0 0 transparent;
+    padding-top: 0;
+    border-bottom: 1px solid #BBBBBB;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #FFFFFF;
+    color: #4B4B4B;
+    font-size: 11px;
+    text-transform: uppercase;
+    white-space: nowrap;
+	padding: 6px 0 0;
+}
+.FixedHeader .Scroller {
+    margin-top: 20px;
+}
+.AdditionalInformation {
+	text-shadow: none;
+}
+.LightRow.Bottom {
+    background: none repeat scroll 0 0 #FFFFFF;
+	border-bottom: 1px solid #D6D6D6;
+    border-top: 1px solid #D6D6D6;
+}
+.ArticleMailHeader {
+    background: url("../img/GradientSmall.png") repeat-x scroll 0 0 #A7AAAA;
+    margin: 0 0;
+}
+.Actions li a:hover, .Actions li span::hover {
+    background-color: #006666;
+	color: white;
+}
+.Actions li a:hover, .Actions li span:hover, .OverviewZoom a:hover {
+    background: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    background: #006666;
+    color: white;
+}
+.ControlRow li.Active > a, .ControlRow li.Active:hover > a, .ControlRow li.Active:active > a {
+	background: url("../img/ActiveButton.png") no-repeat scroll 5px 10px #006666;    
+	margin-right: 0;
+    padding: 7px 12px 7px 11px;
+    text-decoration: none;
+    text-shadow: 0 0 0 #000000;
+}
+.ControlRow li:hover a{
+	background: url("../img/ActiveButton.png") no-repeat scroll 5px 10px #006666;
+	color: #FFFFFF;
+}
+.OverviewControl .ControlRow {
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+.ControlRow li > a{
+	text-decoration: none;
+}
+.ControlRow li.Active, .ControlRow li.Active:hover, .ControlRow li.Active:active {
+    padding-left: 0;
+}
+.LayoutPopup fieldset.TableLike > label, fieldset.TableLike > .Row > label {
+    color: #333333;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+
+
+
+
