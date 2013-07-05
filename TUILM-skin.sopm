@@ -8,7 +8,6 @@
     <Description Lang="en">Test.</Description>
     <Description Lang="de">Test.</Description>
     <Framework>3.1.x</Framework>
-    <Framework>3.2.x</Framework>
     <Filelist>
         <File Permission="644"  Location="Kernel/Config/Files/TUILM_skins.xml"/>		
         <File Permission="644"  Location="Kernel/Config/Files/ZZZABTUILMSkin.pm"/>
