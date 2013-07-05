@@ -86,12 +86,7 @@ body{
 	line-height: 1em;
 }
 .ContentColumn form fieldset{
-	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
-    border: 1px solid #EAEEEE;
-    border-radius: 5px 5px 5px 5px;
-    margin: 0 0 13px;
-    padding-bottom: 5px;
-	margin-left: 13px;
+    margin: 10px 10px 13px 13px;
 }
 .ContentColumn form fieldset.TableLike div.RichTextField {
 	margin-top: 10px;
@@ -244,6 +239,7 @@ form fieldset {
 	margin-left: 110px;
 }
 .MainBox .LayoutFixedSidebar > .ContentColumn {
+	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
     border: 1px solid #CCCCCC;
 }
 .MainBox .LayoutFixedSidebar .ContentColumn > .ControlRow {
@@ -343,10 +339,16 @@ form fieldset {
 }
 .LayoutPopup fieldset.TableLike > label, fieldset.TableLike > .Row > label {
     color: #333333;
-	text-shadow: 0 1px 0 #FFFFFF;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.MainBox > h1 {
+	padding: 13px 0 13px;
 }
 
-
-
-
+.TableSmall thead .SortAscending a, .TableSmall thead .headerSortUp a {
+    color: #EEEEEE
+}
+.TableSmall thead .SortDescending a, .TableSmall thead .headerSortDown a {
+    color: #EEEEEE
+}
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>TUILM-UniRZ-Framework</Name>
+    <Version>0.5.0</Version>
+    <Vendor>TU Ilmenau</Vendor>
+    <URL>http://www.tu-ilmenau.de/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Test.</Description>
+    <Description Lang="de">Test.</Description>
+    <Framework>3.1.x</Framework>
+    <Framework>3.2.x</Framework>
+    <Filelist>
+        <File Permission="644"  Location="Kernel/Config/Files/TUILM_skins.xml"/>		
+        <File Permission="644"  Location="Kernel/Config/Files/ZZZABTUILMSkin.pm"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/Logo_tuilm.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/actions_line.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/thead_sortdown_bg.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/thead_sortup_bg.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/toolbar_sprite.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/ActiveButton.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/header_bg.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/bg.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/icons/product.ico"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/Logo_tuilm.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/bg.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/sortable_bg.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/unirz.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/ActiveButton.png"/>	
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/icons/product.ico"/>		
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/css/TUILM/MyCSSChangesCustomer.css"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/css/TUILM/MyCSSChangesAgent.css"/>
+    </Filelist>
+</otrs_package>
+
