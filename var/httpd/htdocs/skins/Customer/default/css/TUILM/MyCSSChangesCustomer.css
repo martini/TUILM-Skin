@@ -11,7 +11,7 @@
 }
 
 #Navigation .Selected a {
-    margin-right: 0px;
+    margin: 0px;
     padding: 8px 12px 8px 18px;
     color: #FFF;
     background: url(../img/ActiveButton.png) no-repeat scroll 5px 10px #006666;
@@ -67,6 +67,8 @@ body {
     color: #FFFFFF;
     text-shadow: 0 1px 0 #000;
     font-size: 11px;
+    padding: 8px 12px 8px 18px;
+    margin: 0;
 }
 
 #Navigation li:active {
@@ -87,67 +89,11 @@ body {
      border-bottom: 0 solid #666666;
 }
 
-.Overview tbody tr:hover .Title h2 {
-    color: #006666;
-    font-weight: bold;
-}
-.Overview tbody tr:hover td {
-    background: #E5F2F3;
-    color: #006666;
-    font-weight: normal;
-}
-.Overview tbody tr:hover {
-    border-color: #006666;
-    font-weight: normal;
-}
-
-.Overview tbody tr:hover td, .Overview tbody tr:hover a {
-    color: #006666;
-    font-weight: normal;
-}
-.Overview tbody tr:hover .Title div {
-    color: #006666;
-    font-weight: normal;
-}
-.Overview tbody tr:hover td, .Overview tbody tr:hover a {
-    color: #006666;
-    text-shadow: 0 0px 0 #F4B259;
-}
-.Overview tbody tr:hover .Title div {
-    color: #006666;
-    text-shadow: 0 0px 0 #F4B259;
-}
-.Overview thead {
-    display: table-header-group;
-}
-o
 .JavaScriptAvailable .Login input[type="text"], .JavaScriptAvailable .Login input[type="password"] {
     z-index: 0;
 }
 .Login input[type="text"], .Login input[type="password"] {
     background-color: white;
-}
-.Widget {
-    background: url("../img/widget_bg_100.png") repeat-x scroll 0 0 #EEEEEE;
-    border: 1px solid #CCCCCC;
-    border-radius: 2px 2px 2px 2px;
-    margin-bottom: 10px;
-    padding: 10px 10px 1px 10px;
-}
-.Widget .Header{
-	padding: 2px 5px 3px;
-}
-	
-h2 {
-    font-size: 13px;
-    font-weight: bold;
-    margin-bottom: 6px;
-}
-
-.Widget {
-    border-radius: 2px 2px 2px 2px;
-    margin: 20px;
-    padding: 10px 10px 1px;
 }
 
 .Overview thead th {
@@ -164,22 +110,31 @@ table.Overview {
 	border: 1px solid #999999
 }
 .Overview thead a {
-    height: 15px;
-	}
+    height: 12px;
+    color: #4B4B4B;
+}
+
+.Overview thead .SortAscending a {
+    background: url("../img/sortable_bg.png") no-repeat scroll right -7px transparent;
+    padding: 1px 13px 4px 8px;
+    font-weight: 400;
+    color: white;
+}
+
+.Overview thead .SortDescending a {
+    background: url("../img/sortable_bg.png") no-repeat scroll right -30px transparent;
+    padding: 1px 13px 4px 8px;
+    font-weight: 400;
+    color: white;
+}
+
 .DynamicFieldmoodle{
 	position: absolute; top:180px; left:310px; bottom:340px; right:0px;
 }
 	
-.Overview thead .SortAscending a, .Overview thead .SortDescending a {
-	color: white;
-    padding: 6px 10px 3px;
-}
-
 #Footer a:hover {
     color: #006666;
 }
-
-
 
 .LayoutFixedSidebar {
     display: block;
@@ -240,11 +195,7 @@ table.Overview {
     padding: 4px 16px 8px 8px;
     position: relative;
 }
-.MessageBox, .ActionRow {
-	height: 24px;
-    margin: 7px 5px 10px 7px;
-    position: relative;
-}
+
 .WidgetSimpleZoom > .Header h2 {
     margin: 0;
     padding: 4px 3px;
@@ -296,6 +247,177 @@ fieldsetZoom.TableLike > .Value, fieldsetZoom.TableLike > .Row > .Value {
     padding: 3px 0 3px 8px;    
 	margin-top: 0;
 }
-.JavaScriptAvailable .Login input[type="text"], .JavaScriptAvailable .Login input[type="password"] {
-    z-index: 0;
+
+.TicketHeader {
+    background: url("../img/widget_bg_100.png") repeat-x scroll 0 0 #EEEEEE;
+    width: 100%;
 }
+
+#TicketOptions {
+    right: 10px;
+    line-height: 20px;
+}
+
+#Messages {
+   width: 100%;
+}
+
+.Widget {
+    background: url("../img/widget_bg_100.png") repeat-x scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    margin: 20px;
+}
+
+.Widget .Header{
+    border-color: #FFFFFF #FFFFFF #CCCCCC;
+    border-image: none;
+    border-style: solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-width: 1px;
+    padding: 2px 5px 3px;
+    position: relative;
+    display: block;
+}
+	
+h2 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.ActionMenu {
+   background: none repeat scroll 0 0 #FFFFFF;
+   border-bottom: 1px solid #CCCCCC;
+   border-bottom-left-radius: 2px;
+   border-left: 1px solid #CCCCCC;
+   padding-left: 3px;
+   position: absolute;
+   right: 0;
+   top: 0;
+   display: block;
+}
+
+.WidgetAction {
+    float: left;
+    height: 19px;
+    padding-right: 1px;
+    width: 22px;
+}
+
+.WidgetAction.Settings a {
+    background: url("../img/widget_settings.png") no-repeat scroll 2px -16px transparent;
+    height: 18px;
+    display: block;
+}
+
+.Widget h2 {
+   margin: 0;
+   padding: 4px 3px;
+   font-family: 	"Helvetica Neue",?Helvetica,?Arial,?sans-serif;
+   font-size: 14px;
+   font-weight: normal;
+   color: #474747;
+   font-weight: 400;
+}
+
+.Widget > .Content {
+    background: -moz-linear-gradient(center top , #FFFFFF, #FCFCFC) repeat scroll 0 0 transparent;
+    padding: 8px 15px 10px;
+}
+
+.MessageBox, .ActionRow {
+    height: 24px;
+    margin: 7px 5px 10px 7px;
+    position: relative;
+}
+
+.Content .ActionRow {
+    margin-top: -1px;
+    padding: 0;
+    background: none;
+    border-top: none;
+}
+
+.Tab.Actions li:first-child a {
+    padding-left: 0;
+}
+
+table.Overview {
+   border-color: #C9C9C9;
+}
+.Overview thead {
+   background: url("../img/SmallDarkGradient.png") repeat-x scroll 0 0 #EEEEEE;
+}
+
+.Overview thead th {
+    border: 1px solid #C9C9C9;
+}
+
+.Overview tbody tr {
+    font-family: "Helvetica Neue",?Helvetica,?Arial,?sans-serif;
+}
+.Overview tbody tr:hover .Title h2 {
+    color: #006666;
+    font-weight: bold;
+}
+.Overview tbody tr:hover td {
+    background: #E5F2F3;
+    color: #006666;
+    font-weight: normal;
+}
+.Overview tbody tr:hover {
+    border-color: #006666;
+    font-weight: normal;
+}
+
+.Overview tbody tr:hover td, .Overview tbody tr:hover a {
+    color: #006666;
+    font-weight: normal;
+}
+.Overview tbody tr:hover .Title div {
+    color: #006666;
+    font-weight: normal;
+}
+.Overview tbody tr:hover td, .Overview tbody tr:hover a {
+    color: #006666;
+    text-shadow: 0 0px 0 #F4B259;
+}
+.Overview tbody tr:hover .Title div {
+    color: #006666;
+    text-shadow: 0 0px 0 #F4B259;
+}
+.Overview thead {
+    display: table-header-group;
+}
+
+.Overview tbody tr td {
+   border-right: 1px dotted #CCCCCC;
+}
+
+.Overview tbody a {
+    color: #006666;
+}
+
+.Overview tbody tr td h2 {
+   color: #000000;
+   font-size: 12px;
+}
+
+
+#Navigation > ul > li > ul a:hover {
+    background: none repeat scroll 0 0 #E5F2F3;
+    color: #444444;
+    text-shadow: none;
+}
+
+#Navigation > ul > li > ul a {
+   background: url("../img/ActiveButton.png") no-repeat scroll 5px 10px #006666;
+   color: #FFFFFF;
+   text-shadow: none;
+   padding: 8px 11px;
+}
+
+
+

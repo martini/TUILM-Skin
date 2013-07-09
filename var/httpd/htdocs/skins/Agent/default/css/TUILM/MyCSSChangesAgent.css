@@ -71,6 +71,9 @@ body{
 .WidgetSimple > .Content{
 	background: -moz-linear-gradient(center top , #FFFFFF, #FCFCFC) repeat scroll 0 0 transparent
 }
+.WidgetSimple {
+    background: url("../img/GradientSmall.png") repeat-x scroll 0 0 #A7AAAA;
+}
 .ContentColumn form fieldset.TableLike > .Field, fieldset.TableLike > .Row > .Field {
     margin-left: 120px;
 }
@@ -91,9 +94,7 @@ body{
 .ContentColumn form fieldset.TableLike div.RichTextField {
 	margin-top: 10px;
 }
-.WidgetBox > .Content{
-	background: -moz-linear-gradient(center top , #FFFFFF, #FCFCFC) repeat scroll 0 0 transparent
-}
+
 #Navigation li{
 	background: none;
 	padding-left: 0;
@@ -216,27 +217,13 @@ ul.Tablelike li:hover {
 fieldset.TableLike.FixedLabel > label, fieldset.TableLike.FixedLabel > .Row > label {
     width: 170px;
 }
-.LayoutPopup fieldset.TableLike > label, fieldset.TableLike > .Row > label {
-    background: -moz-linear-gradient(center top , #F9F9F9, #ECEEEE) repeat scroll 0 0 transparent;
-    border-bottom: 1px solid #CCCCCC;
-    border-right: 1px solid #CCCCCC;
-    border-top: 1px solid #FFFFFF;
-    font-size: 11px;
-    line-height: 1em;
-    margin-top: 4px;
-    padding: 4px 9px 3px 0;
-    width: 110px;
-	color: #929292;
-    display: block;
-    float: left;
-    text-align: right;
-    text-shadow: 0 1px 0 #FAFAFA;
-}
-form fieldset {
-	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
-}
+
 .LayoutPopup fieldset.TableLike.FixedLabel > .Field{
 	margin-left: 110px;
+}
+
+form fieldset {
+	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
 }
 .MainBox .LayoutFixedSidebar > .ContentColumn {
 	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
@@ -301,10 +288,7 @@ form fieldset {
 	border-bottom: 1px solid #D6D6D6;
     border-top: 1px solid #D6D6D6;
 }
-.ArticleMailHeader {
-    background: url("../img/GradientSmall.png") repeat-x scroll 0 0 #A7AAAA;
-    margin: 0 0;
-}
+
 .Actions li a:hover, .Actions li span::hover {
     background-color: #006666;
 	color: white;
@@ -337,10 +321,7 @@ form fieldset {
 .ControlRow li.Active, .ControlRow li.Active:hover, .ControlRow li.Active:active {
     padding-left: 0;
 }
-.LayoutPopup fieldset.TableLike > label, fieldset.TableLike > .Row > label {
-    color: #333333;
-    text-shadow: 0 1px 0 #FFFFFF;
-}
+
 .MainBox > h1 {
 	padding: 13px 0 13px;
 }
@@ -352,3 +333,9 @@ form fieldset {
     color: #EEEEEE
 }
 
+.WidgetAction.Settings a {
+    background: url("../img/widget_settings.png") no-repeat scroll 2px -16px transparent;
+}
+.ActionMenu {
+   display: block;
+}

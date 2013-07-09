@@ -9,8 +9,12 @@
     <Description Lang="de">Test.</Description>
     <Framework>3.2.x</Framework>
     <Filelist>
-        <File Permission="644"  Location="Kernel/Config/Files/TUILM_skins.xml"/>		
-        <File Permission="644"  Location="Kernel/Config/Files/ZZZABTUILMSkin.pm"/>
+        <File Permission="644"  Location="Kernel/Config/Files/TUILM_skins.xml"/>
+		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerTicketOverview.dtl"/>
+		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentNavigationBar.dtl"/>
+		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentDashboardTicketGeneric.dtl"/>
+		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerTicketZoom.dtl"/>
+		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerRichTextEditor.dtl"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/Logo_tuilm.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/actions_line.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/thead_sortdown_bg.png"/>
@@ -25,6 +29,8 @@
         <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/sortable_bg.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/unirz.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/ActiveButton.png"/>	
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/widget_settings.png"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/widget_bg_100.png"/>	
         <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/icons/product.ico"/>		
         <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/css/TUILM/MyCSSChangesCustomer.css"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/css/TUILM/MyCSSChangesAgent.css"/>
