@@ -24,6 +24,7 @@
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/header_bg.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/bg.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/icons/product.ico"/>
+        <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/header_bg.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/Logo_tuilm.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/bg.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Customer/default/img/sortable_bg.png"/>

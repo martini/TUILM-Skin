@@ -1,7 +1,6 @@
 #Header {
     padding: 5px 35px 5px;
-    background: #A7AAAA url(../img/GradientSmall.png) repeat-x 0 0;
-    border-bottom: 1px solid #999;
+    background: url("../img/header_bg.png") repeat-x scroll 0 0 transparent;    border-bottom: 1px solid #999;
     text-shadow: 0 1px 0 #EEE;
 }
 
