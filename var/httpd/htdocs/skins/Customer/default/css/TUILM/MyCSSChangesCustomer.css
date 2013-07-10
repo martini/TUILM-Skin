@@ -418,8 +418,13 @@ table.Overview {
    padding: 8px 11px;
 }
 
+.Center {
+    text-align: center;
+}
 .SearchResults .MessageBox, .ActionRow {
    height: auto;
    margin: auto;
 }
+
+
 
