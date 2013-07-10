@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.1">
     <Name>TUILM-Skin</Name>
-    <Version>0.5.4</Version>
+    <Version>0.5.3</Version>
     <Vendor>TU Ilmenau</Vendor>
     <URL>http://www.tu-ilmenau.de/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
@@ -12,7 +12,7 @@
         <File Permission="644"  Location="Kernel/Config/Files/TUILM_skins.xml"/>
 		<File Permission="644"  Location="Custom/Kernel/Output/HTML/Standard/CustomerFAQSearch.dtl"/>
 		<File Permission="644"  Location="Custom/Kernel/Output/HTML/Standard/CustomerTicketSearch.dtl"/>
-		<File Permission="644"  Location="Custom/Kernel/Modules/CustomerTicketSearch.pm"/>
+		<File Permission="644"  Location="Custom/Kernel/Modules/CustomerTicketSearchSimple.pm"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerTicketOverview.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentNavigationBar.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentDashboardTicketGeneric.dtl"/>
