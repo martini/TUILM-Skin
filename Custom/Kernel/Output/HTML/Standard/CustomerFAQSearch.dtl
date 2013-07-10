@@ -1,0 +1,46 @@
+# --
+# CustomerFAQSearch.dtl - provides HTML form for CustomerFAQSearch.pm
+# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# --
+# $Id: CustomerFAQSearch.dtl,v 1.11 2012/11/20 13:08:05 mh Exp $
+# --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (AGPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+# --
+
+<!-- dtl:block:Search -->
+<div id="MainBox" class="Search ARIARoleMain">
+    <div class="Content">
+        <form action="$Env{"CGIHandle"}" method="post" name="compose">
+            <input type="hidden" name="Action" value="$Env{"Action"}"/>
+            <input type="hidden" name="Subaction" value="Search"/>
+            <fieldset>
+                <h2>$Config{"FAQ::FAQHook"}</h2>
+                <div>
+                    <label for="Number">$Config{"FAQ::FAQHook"}</label>
+                    <input title="$Config{"FAQ::FAQHook"}" type="text" name="Number" id="Number" size="30" value="$QData{"Number"}"/>
+                </div>
+                <div>
+                    <label for="Title">$Text{"Fulltext"}</label>
+                    <input title="$Text{"Fulltext"}" type="text" id="FullText" name="Fulltext" value="$QData{"Fulltext"}" size="20" />
+                </div>
+            </fieldset>
+            <fieldset>
+                <h2>$Text{"Category"}:</h2>
+                <div>
+                    $Data{"CategoriesStrg"}
+                </div>
+            </fieldset>
+            <div id="BottomActionRow" class="ActionRow">
+                <button id="Submit" type="submit" value="$Text{"Search"}">$Text{"Search"}</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- dtl:js_on_document_complete -->
+<script type="text/javascript">
+    Core.Customer.InitFocus();
+</script>
+<!-- dtl:js_on_document_complete -->
+<!-- dtl:block:Search -->

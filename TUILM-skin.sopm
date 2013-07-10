@@ -10,6 +10,9 @@
     <Framework>3.2.x</Framework>
     <Filelist>
         <File Permission="644"  Location="Kernel/Config/Files/TUILM_skins.xml"/>
+		<File Permission="644"  Location="Custom/Kernel/Output/HTML/Standard/CustomerFAQSearch.dtl"/>
+		<File Permission="644"  Location="Custom/Kernel/Output/HTML/Standard/CustomerTicketSearch.dtl"/>
+		<File Permission="644"  Location="Custom/Kernel/Modules/CustomerTicketSearch.pm"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerTicketOverview.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentNavigationBar.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentDashboardTicketGeneric.dtl"/>

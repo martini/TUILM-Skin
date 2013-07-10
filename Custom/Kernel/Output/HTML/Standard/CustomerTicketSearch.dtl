@@ -1,0 +1,33 @@
+# --
+# CustomerTicketSearch.dtl - provides HTML form for CustomerTicketSearch.pm
+# --
+
+<!-- dtl:block:Search -->
+<div id="MainBox" class="Search ARIARoleMain">
+    <div class="Content">
+        <form action="$Env{"CGIHandle"}" method="post" name="compose">
+            <input type="hidden" name="Action" value="$Env{"Action"}"/>
+            <input type="hidden" name="Subaction" value="Search"/>
+            <fieldset>
+                <h2>$Config{"Ticket::Hook"}</h2>
+                <div>
+                    <label for="TicketNumber">$Config{"Ticket::Hook"}</label>
+                    <input title="$Config{"Ticket::Hook"}" type="text" name="TicketNumber"id="TicketNumber" size="30" value="$QData{"TicketNumber"}"/>
+                </div>
+                <div>
+                    <label for="Fulltext">$Text{"Fulltext"}</label>
+                    <input type="text" name="Fulltext" id="Fulltext" value="$QData{"Fulltext"}" size="20" />
+                </div>
+            </fieldset>
+            <div id="BottomActionRow" class="ActionRow">
+                <button id="Submit" type="submit" value="$Text{"Search"}">$Text{"Search"}</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- dtl:js_on_document_complete -->
+<script type="text/javascript">
+    Core.Customer.InitFocus();
+</script>
+<!-- dtl:js_on_document_complete -->
+<!-- dtl:block:Search -->
