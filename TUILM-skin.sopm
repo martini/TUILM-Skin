@@ -18,6 +18,8 @@
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentDashboardTicketGeneric.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerTicketZoom.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerRichTextEditor.dtl"/>
+		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerLogin.dtl"/>
+		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/Motd.dtl"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/Logo_tuilm.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/actions_line.png"/>
         <File Permission="644"  Location="var/httpd/htdocs/skins/Agent/default/img/thead_sortdown_bg.png"/>

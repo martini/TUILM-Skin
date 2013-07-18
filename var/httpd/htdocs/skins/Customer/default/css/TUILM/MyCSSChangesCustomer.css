@@ -418,13 +418,22 @@ table.Overview {
    padding: 8px 11px;
 }
 
-.Center {
+#Navigation .Selected + li a {
+    padding: 8px 12px 8px 8px;
+}
+
+#Navigation > ul > li > a {
+    padding: 8px 12px 8px 8px;
+}
+
+#Navigation a:hover {
+    padding: 8px 12px 8px 8px;
+    background: #006666;
+}
+.Widget#MessageOfTheDayBox  h2{
     text-align: center;
+	
 }
-.SearchResults .MessageBox, .ActionRow {
-   height: auto;
-   margin: auto;
+.Widget#MessageOfTheDayBox > .Content {
+    margin-left: 0;
 }
-
-
-
