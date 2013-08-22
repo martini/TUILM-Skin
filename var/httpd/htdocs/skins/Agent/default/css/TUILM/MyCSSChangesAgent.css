@@ -69,7 +69,7 @@ body{
 	background: url("../img/bg.png") repeat scroll 0 0 #FFFFFF;
 }
 .WidgetSimple > .Content{
-	background: -moz-linear-gradient(center top , #FFFFFF, #FCFCFC) repeat scroll 0 0 transparent
+	background: none repeat scroll 0 0 #FFFFFF;
 }
 .WidgetSimple {
     background: url("../img/GradientSmall.png") repeat-x scroll 0 0 #A7AAAA;
@@ -78,7 +78,7 @@ body{
     margin-left: 120px;
 }
 .ContentColumn form fieldset.TableLike > label, fieldset.TableLike > .Row > label {
-    background: -moz-linear-gradient(center top , #F9F9F9, #ECEEEE) repeat scroll 0 0 transparent;
+    background: none repeat scroll 0 0 #F9F9F9;
     border-bottom: 1px solid #CCCCCC;
     border-right: 1px solid #CCCCCC;
     border-top: 1px solid #FFFFFF;
@@ -223,10 +223,10 @@ fieldset.TableLike.FixedLabel > label, fieldset.TableLike.FixedLabel > .Row > la
 }
 
 form fieldset {
-	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
+	background: none repeat scroll 0 0 #FFFFFF;
 }
 .MainBox .LayoutFixedSidebar > .ContentColumn {
-	background: -moz-linear-gradient(center top , #FFFFFF, #F8F9F9) repeat scroll 0 0 transparent;
+    background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #CCCCCC;
 }
 .MainBox .LayoutFixedSidebar .ContentColumn > .ControlRow {

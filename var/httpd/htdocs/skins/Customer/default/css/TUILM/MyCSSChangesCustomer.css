@@ -6,7 +6,10 @@
 
 #Header #Logo {
     height: 58px;
+}
 
+#Navigation > ul > li > ul a:hover, #Navigation > ul > li > ul a.SubSelected {
+    background-color: #006666;
 }
 
 #Navigation .Selected a {
@@ -255,10 +258,6 @@ fieldsetZoom.TableLike > .Value, fieldsetZoom.TableLike > .Row > .Value {
 #TicketOptions {
     right: 10px;
     line-height: 20px;
-}
-
-#Messages {
-   width: 100%;
 }
 
 .Widget {

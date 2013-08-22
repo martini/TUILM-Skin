@@ -145,7 +145,7 @@
                 <div title="$QData{"Lock"}">$Text{"$QData{"Lock"}"}</div> 
             </td>
 			<td class="">
-				<div title="$TimeShort{"$Data{"Created"}"}">$QData{"Created"}</div>
+				<div title="$TimeShort{"$Data{"Created"}"}">$TimeShort{"$QData{"Created"}"}</div>
 			</td>
 <!-- dtl:block:ContentLargeTicketGenericRow -->
 <!-- dtl:block:ContentLargeTicketGenericNone -->
