@@ -12,9 +12,9 @@
 <div class="WidgetSimple" id="MessageOfTheDayBox">
     <div class="Header">
 #        <h2 class="Center">$Text{"Message of the Day"}</h2>
-         <h2 class="Center"><b>$Text{"Achtung"}</b></h2>
+         <h2 class="Center"><b>$Text{"Wilkommen im Ticket System des TU-Ilmenau-UniRZ"}</b></h2>
     </div>
     <div class="Content">
-         <p>Sie sind mit dem OTRS Testsystem vebunden. Bei Fragen wenden Sie sich bitte an den Administrator (otrs@tu-ilmenau.de)</p>
+         <p>Bei Fragen öffnen Sie bitte ein Ticket unter dem Service Ticket System (OTRS) oder wenden Sie sich bitte an den Administrator (otrs@tu-ilmenau.de)</p>
     </div>
 </div>

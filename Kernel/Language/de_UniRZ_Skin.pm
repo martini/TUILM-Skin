@@ -9,7 +9,8 @@ sub Data {
 
     $Self->{Translation}->{'New ticket'} = 'Neues Ticket';
     $Self->{Translation}->{'Create new ticket'} = 'Neues Ticket erstellen';
-
+    $Self->{Translation}->{'customer'} = 'Nutzer'; Customer Information
+	$Self->{Translation}->{'Customer Information'} = 'Nutzer Information';
 }
 
 1;
