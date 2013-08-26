@@ -113,6 +113,9 @@
 				$Text{"Lock"}			
 			</th>
 			<th class="">
+				$Text{"Type"}			
+			</th>
+			<th class="">
 				$Text{"Created"}	
 			</th>
 		</tr>
@@ -143,6 +146,9 @@
             </td>
             <td class="">
                 <div title="$QData{"Lock"}">$Text{"$QData{"Lock"}"}</div> 
+            </td>
+            <td class="">
+                <div title="$QData{"Ticket Type"}">$Text{"$QData{"Type"}"}</div> 
             </td>
 			<td class="">
 				<div title="$TimeShort{"$Data{"Created"}"}">$TimeShort{"$QData{"Created"}"}</div>
