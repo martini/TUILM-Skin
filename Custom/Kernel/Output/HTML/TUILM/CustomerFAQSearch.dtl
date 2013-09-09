@@ -16,22 +16,26 @@
             <input type="hidden" name="Action" value="$Env{"Action"}"/>
             <input type="hidden" name="Subaction" value="Search"/>
             <fieldset>
-                <h2>$Config{"FAQ::FAQHook"}</h2>
+                <h2>$Text{"FAQ search"}</h2>
                 <div>
-                    <label for="Number">$Config{"FAQ::FAQHook"}</label>
+                    <label for="Number">$Text{"FAQ number"}</label>
                     <input title="$Config{"FAQ::FAQHook"}" type="text" name="Number" id="Number" size="30" value="$QData{"Number"}"/>
                 </div>
                 <div>
                     <label for="Title">$Text{"Fulltext"}</label>
                     <input title="$Text{"Fulltext"}" type="text" id="FullText" name="Fulltext" value="$QData{"Fulltext"}" size="20" />
                 </div>
-            </fieldset>
-            <fieldset>
-                <h2>$Text{"Category"}:</h2>
                 <div>
+                    <label for="Title">IT Services</label>
                     $Data{"CategoriesStrg"}
                 </div>
             </fieldset>
+#            <fieldset>
+#                <h2>$Text{"Category"}:</h2>
+#                <div>
+#                    $Data{"CategoriesStrg"}
+#                </div>
+#            </fieldset>
             <div id="BottomActionRow" class="ActionRow">
                 <button id="Submit" type="submit" value="$Text{"Search"}">$Text{"Search"}</button>
             </div>

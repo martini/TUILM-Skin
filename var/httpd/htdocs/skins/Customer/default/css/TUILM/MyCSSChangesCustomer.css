@@ -436,3 +436,12 @@ table.Overview {
 .Widget#MessageOfTheDayBox > .Content {
     margin-left: 0;
 }
+.FAQPathCategory a {
+    color: #006666;
+}
+
+.VotingBox {
+    border: 1px solid #D6D6D6;
+    min-width: 23pc;
+    margin: 10px 70px 21px;
+}

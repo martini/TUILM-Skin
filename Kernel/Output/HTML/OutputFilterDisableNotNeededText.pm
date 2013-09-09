@@ -41,6 +41,36 @@ sub Run {
        { \$Text{"customer"}
     }sxmg;
     }
+	
+	# change Text in Phone Ticket 
+	if ($Param{TemplateFile} =~/^AgentTicketPhone/){
+       ${ $Param{Data} } =~ s{
+        (\$Text\{"Create\sNew\sPhone\sTicket"\})
+       }
+       { \$Text{"Create new ticket"}
+    }sxmg;
+    }
+	
+	# no show service DF 
+	if ($Param{TemplateFile} =~/^CustomerTicketMessage/){
+       ${ $Param{Data} } =~ s{
+        (ServiceName"\sstyle="display:\sblock\;")
+       }
+       { ServiceName" style="display: none;"
+    }sxmg;
+    }
+	# return if it's CustomerFAQExplorer
+#    return if $Param{TemplateFile} !~ /^(CustomerFAQExplorer|AgentFAQExplorer|PublicFAQExplorer)/;
+	
+	# no subcategories or articles in FAQ 
+#	if (${$Param{Data}} =~ /s{(No\ssubcategories\sfound.)}/) {
+#		${ $Param{Data} } =~ s{
+#			(class="WidgetSimple"\sid="Subcategories")
+#		   }
+#		   { class="WidgetSimple Hidden" id="Subcategories"
+#		}sxmg;
+#    }
+
 return $Param{Data};
 }
 	1;

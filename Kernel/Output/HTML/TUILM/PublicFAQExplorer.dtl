@@ -9,6 +9,23 @@
 # did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 # --
 
+<!-- dtl:js_on_document_complete -->
+<script type="text/javascript">
+    Core.Customer.ClickableRow();
+	if (document.getElementById("ASub") != null) {
+		if (document.getElementById("ASub").innerHTML == "No subcategories.") {
+			document.getElementById("Subcategories").setAttribute("class", "Hidden");
+			}
+	}
+	 
+	if (document.getElementById("Aarticles") != null) {
+		if (document.getElementById("Aarticles").innerHTML == "No FAQ articles.") {
+			document.getElementById("Articles").setAttribute("class", "Hidden");
+			}
+	}
+</script>
+<!-- dtl:js_on_document_complete -->
+
 <div id="MainBox" class="ARIARoleMain">
 
     <div class="Content">
@@ -99,10 +116,10 @@
             <div class="ContentColumn">
 
 <!-- dtl:block:Subcategories -->
-                <div class="WidgetSimple">
+                <div class="WidgetSimple" id="Subcategories">
 <!-- dtl:block:OverviewResult -->
                     <div class="Header">
-                        <h3>$Text{"Subcategories"}</h3>
+                        <h3>$Text{"IT Services"}</h3>
                         <div class="Clear"></div>
                     </div>
 
@@ -121,7 +138,7 @@
 <!-- dtl:block:NoCategoryDataFoundMsg -->
                                 <tr>
                                     <td colspan="4">
-                                        <a href="#">$Text{"No subcategories found."}</a>
+                                        <a id="ASub" href="#">$Text{"No subcategories."}</a>
                                     </td>
                                 </tr>
 <!-- dtl:block:NoCategoryDataFoundMsg -->
@@ -141,8 +158,8 @@
 <!-- dtl:block:Subcategories -->
 
 
-<!-- dtl:block:FAQItemList -->
-                <div class="WidgetSimple">
+<!-- dtl:block:FAQItemList -->               
+                <div class="WidgetSimple" id="Articles">
 
                     <div class="Header">
                         <h3>$Text{"FAQ Articles"}</h3>
@@ -186,14 +203,14 @@
 <!-- dtl:block:NoFAQDataFoundMsg -->
                                 <tr>
                                     <td colspan="5">
-                                        <a href="#">$Text{"No FAQ articles found."}</a>
+                                        <a id="Aarticles" href="#">$Text{"No FAQ articles."}</a>
                                     </td>
                                 </tr>
 <!-- dtl:block:NoFAQDataFoundMsg -->
 <!-- dtl:block:Record -->
                                 <tr>
                                     <td class="FAQNumber" title="$QData{"Number"}"><a href="$Env{"Baselink"}Action=PublicFAQZoom;ItemID=$Data{"FAQID"};ZoomBackLink=$QData{"ZoomBackLink"};">$Data{"Number"}</a></td>
-                                    <td class="Title" title="$QData{"Title"}">$QData{"Title","60"}</td>
+                                    <td class="Title" title="$QData{"Title"}">$QData{"Title","260"}</td>
 #                                    <td class="Category" title="$QData{"CategoryName"}">$QData{"CategoryName","45"}</td>
 <!-- dtl:block:RecordLanguage -->
 #                                    <td class="Language" title="$QData{"Language"}">$QData{"Language","5"}</td>
@@ -216,9 +233,3 @@
         </div>
     </div>
 </div>
-
-<!-- dtl:js_on_document_complete -->
-<script type="text/javascript">
-    Core.Customer.ClickableRow();
-</script>
-<!-- dtl:js_on_document_complete -->
