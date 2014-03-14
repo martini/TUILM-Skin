@@ -16,7 +16,6 @@
 		<File Permission="644"  Location="Custom/Kernel/Modules/CustomerTicketSearchSimple.pm"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerTicketOverview.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentNavigationBar.dtl"/>
-		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/AgentDashboardTicketGeneric.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerTicketZoom.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerRichTextEditor.dtl"/>
 		<File Permission="644"  Location="Kernel/Output/HTML/TUILM/CustomerLogin.dtl"/>

@@ -42,6 +42,15 @@ sub Run {
     }sxmg;
     }
 	
+	 # change word Kundenkontakt 
+	if ($Param{TemplateFile} =~/^AgentTicketSplit/){
+       ${ $Param{Data} } =~ s{
+        (\$Text\{"From\scustomer"\})
+       }
+       { \$Text{"customer"}
+    }sxmg;
+    }
+	
 	# change Text in Phone Ticket 
 	if ($Param{TemplateFile} =~/^AgentTicketPhone/){
        ${ $Param{Data} } =~ s{
