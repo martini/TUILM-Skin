@@ -81,4 +81,31 @@
             </Hash>
         </Setting>
     </ConfigItem>
+    <ConfigItem Name="Frontend::Module###AgentTicketNew" Required="0" Valid="1">
+        <Description Translatable="1">Frontend module registration for the agent interface.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Frontend::Agent::ModuleRegistration</SubGroup>
+        <Setting>
+            <FrontendModuleReg>
+                <Description>Create new ticket</Description>
+                <Title></Title>
+                <NavBarName>New Ticket</NavBarName>
+                <NavBar>
+                    <Description Translatable="1"></Description>
+                    <Name Translatable="1">New Ticket</Name>
+                    <Link>Action=AgentTicketPhone</Link>
+                    <LinkOption></LinkOption>
+                    <NavBar>New Ticket</NavBar>
+                    <Type>Menu</Type>
+                    <Block>ItemArea</Block>
+                    <AccessKey>N</AccessKey>
+                    <Prio>50</Prio>
+                </NavBar>
+                <Loader>
+                    <JavaScript>Core.Agent.CustomerSearch.js</JavaScript>
+                    <JavaScript>Core.Agent.TicketAction.js</JavaScript>
+                </Loader>
+            </FrontendModuleReg>
+        </Setting>
+    </ConfigItem>
 </otrs_config>

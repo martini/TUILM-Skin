@@ -19,6 +19,7 @@ sub Data {
     $Self->{Translation}->{'FAQ number'} = 'FAQ Nummer';
     $Self->{Translation}->{'Queue'} = 'Gruppe';
     $Self->{Translation}->{'open'} = 'in Bearbeitung';
+    $Self->{Translation}->{'technical solved'} = 'Technisch gelöst';
 }
 
 1;
