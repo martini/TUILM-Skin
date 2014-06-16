@@ -15,6 +15,8 @@
          <h2 class="Center"><b>$Text{"Wilkommen im Ticket System des TU-Ilmenau-UniRZ"}</b></h2>
     </div>
     <div class="Content">
+	
          <p>Bei Fragen öffnen Sie bitte ein Ticket unter dem Service Ticket System (OTRS) oder wenden Sie sich bitte an den Administrator (otrs@tu-ilmenau.de)</p>
-    </div>
+   
+   </div>
 </div>

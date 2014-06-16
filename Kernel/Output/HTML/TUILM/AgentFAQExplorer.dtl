@@ -11,6 +11,10 @@
 
 <!-- dtl:js_on_document_complete -->
 <script type="text/javascript">
+$("td[class='Last'] div").each(function(index){
+    var text = $(this).attr('title');
+    $(this).html(text);
+	});
 	if (document.getElementById("ASub") != null) {
 		if (document.getElementById("ASub").innerHTML == "No subcategories.") {
 			document.getElementById("Subcategories").setAttribute("class", "Hidden");
