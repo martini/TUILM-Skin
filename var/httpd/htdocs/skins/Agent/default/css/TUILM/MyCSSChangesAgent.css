@@ -339,3 +339,9 @@ form fieldset {
 .ActionMenu {
    display: block;
 }
+#ArticleTableBody .Scroller {
+   height: auto;
+}
+.Dialog > .Content > .InnerContent {
+	max-height: auto;
+}
