@@ -17,7 +17,6 @@ sub Data {
     $Self->{Translation}->{'Fulltext'} = 'Volltextsuche';
     $Self->{Translation}->{'FAQ search'} = 'FAQ Suche';
     $Self->{Translation}->{'FAQ number'} = 'FAQ Nummer';
-    $Self->{Translation}->{'Queue'} = 'Gruppe';
     $Self->{Translation}->{'open'} = 'in Bearbeitung';
     $Self->{Translation}->{'Open Tickets'} = 'Offene Tickets';
 	
