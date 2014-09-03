@@ -332,13 +332,6 @@ form fieldset {
 .TableSmall thead .SortDescending a, .TableSmall thead .headerSortDown a {
     color: #EEEEEE
 }
-
-.WidgetAction.Settings a {
-    background: url("../img/widget_settings.png") no-repeat scroll 2px -16px transparent;
-}
-.ActionMenu {
-   display: block;
-}
 #ArticleTableBody .Scroller {
    height: auto;
 }
