@@ -461,3 +461,6 @@ table.Overview {
 	font-size: 11px;    
 	font-weight: bold;
 }
+#ReplyCustomerTicket #FollowUp{
+	width: 80%;
+}

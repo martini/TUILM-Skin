@@ -9,7 +9,7 @@
             <input type="hidden" name="Action" value="$Env{"Action"}"/>
             <input type="hidden" name="Subaction" value="Search"/>
             <fieldset>
-                <h2>$Text{Ticket search}</h2>
+                <h2>$Text{"Ticket search"}</h2>
                 <div>
                     <label for="TicketNumber">$Text{"Ticket number"}</label>
                     <input title="$Config{"Ticket::Hook"}" type="text" name="TicketNumber"id="TicketNumber" size="30" value="$QData{"TicketNumber"}"/>
